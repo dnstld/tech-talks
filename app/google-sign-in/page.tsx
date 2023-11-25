@@ -12,6 +12,9 @@ export default function GoogleSignIn() {
   }, [session, status]);
 
   return (
-    <div className="absolute left-0 top-0 h-screen w-screen bg-white"></div>
+    <div
+      className="absolute left-0 top-0 h-screen w-screen bg-white"
+      data-testid="google-sign-in"
+    ></div>
   );
 }
